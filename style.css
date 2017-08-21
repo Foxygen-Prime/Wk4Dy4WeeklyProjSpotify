@@ -1,0 +1,105 @@
+/*font-family: 'Lato', sans-serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Aldrich', sans-serif;*/
+
+/*links*/
+
+a:link {
+    color: #2D3033;
+}
+
+/* visited link */
+a:visited {
+    color: white;
+}
+
+/* mouse over link */
+a:hover {
+    color: #FED710;
+}
+
+/* selected link */
+a:active {
+    color: hotpink;
+}
+
+
+.wrapper {
+  max-width: 940px;
+  height: 800px;
+  margin: auto;
+  align-content: space-around;
+  background-color: #00AAD1;
+}
+
+.top_nav {
+  font-family: 'Lato', sans-serif;
+  font-weight: bolder;
+  font-size: 1.5em;
+  color: #2D3033;
+  /*padding-top: 5px;
+padding-bottom: 5px;*/
+  text-align: center;
+}
+
+.navbar {
+  list-style: none;
+  margin: 0 30px;
+  padding: 0;
+  display: inline-flex;
+  justify-content: space-around;
+}
+
+#logo {
+  display: flex;
+  margin: auto;
+  width: 60%;
+}
+
+header {
+  letter-spacing: 4px;
+  background-color: white;
+  text-align: center;
+  font-family: 'Lato', sans-serif;
+  color: #2D3033;
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+
+header :hover {
+    color: #00AAD1;
+}
+
+h1{
+    letter-spacing: 13  px;
+}
+
+h3 {
+  word-spacing: 15px;
+}
+
+.searchBar{
+  margin: auto;
+  width: 100%;
+  align-content: space-between;
+  background-color: #2D3033;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+.search {
+display: flex;
+margin-left: 27%;
+margin-right: 27%;
+
+}
+
+.searchCont {
+  font-family: 'Lato', sans-serif;
+text-align: left;
+  display: inline;
+  margin: auto;
+  border-radius: 10px;
+  padding: 10px 15px 10px 15px;
+
+}
