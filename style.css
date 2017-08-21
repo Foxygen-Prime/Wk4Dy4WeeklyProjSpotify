@@ -103,3 +103,12 @@ text-align: left;
   padding: 10px 15px 10px 15px;
 
 }
+
+.audioDiv {
+  flex-direction: row;
+
+}
+
+.results{
+  border: 2px, #2D3033;
+}

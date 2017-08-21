@@ -2,9 +2,7 @@
 
 let button = document.getElementById('searchSubmit')
 let url = 'https://itunes.apple.com/search?media=music&term=';
-// let searchInput = document.querySelector('.searchInput');
 let results = document.querySelector('.displayedResults');
-// let musicPlayerSection = document.querySelector('.audioDiv');
 let musicPlayer = document.querySelector('.audioPlayer');
 let form = document.querySelector('.searchForm');
 
