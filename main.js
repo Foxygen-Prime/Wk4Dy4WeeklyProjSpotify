@@ -6,7 +6,7 @@ let results = document.querySelector('.displayedResults');
 let musicPlayer = document.querySelector('.audioPlayer');
 let form = document.querySelector('.searchForm');
 
-button.addEventListener('click', function(thingy) {
+form.addEventListener('click', function(thingy) {
   let searchTerm = document.getElementById('searchCont');
   thingy.preventDefault();
   let searchValue = searchTerm.value;
@@ -28,7 +28,7 @@ function zearching(searchValue) {
           results.appendChild(songInfo)
           songInfo.classList.add('return')
           let audio = data.results[i].previewUrl
-          songInfo.addEventListener('click', function() {
+          results.addEventListener('click', function() {
             musicPlayer.src = audio;
           });
           let template = `
